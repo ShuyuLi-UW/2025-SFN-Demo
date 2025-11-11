@@ -1,1 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calcium Imaging Gallery</title>
+  <meta name="description" content="Gallery of calcium imaging videos for six red GECI variants." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>Calcium Imaging Gallery</h1>
+    <p class="lead">
+      This page showcases representative calcium imaging videos from six fluorescent protein variants.
+      Click on any variant below to view its individual video and details.
+    </p>
+  </header>
 
+  <main class="container grid">
+    <a class="card" href="./variants/OCaMP.html">
+      <div class="card-thumb">OCaMP</div>
+      <h2 class="card-title">OCaMP</h2>
+      <p class="card-desc">Orange-shifted calcium indicator</p>
+    </a>
+
+    <a class="card" href="./variants/jRGECO1a.html">
+      <div class="card-thumb">jRGECO1a</div>
+      <h2 class="card-title">jRGECO1a</h2>
+      <p class="card-desc">Benchmark red GECI for reference</p>
+    </a>
+
+    <a class="card" href="./variants/eRGECO1+.html">
+      <div class="card-thumb">eRGECO1+</div>
+      <h2 class="card-title">eRGECO1+</h2>
+      <p class="card-desc">Enhanced version with improved dynamic range. Designed from Berndt Lab, UW.</p>
+    </a>
+
+    <a class="card" href="./variants/eRGECO1s.html">
+      <div class="card-thumb">eRGECO1s</div>
+      <h2 class="card-title">eRGECO1s</h2>
+      <p class="card-desc">Sensitive variant emphasizing stability. Designed from Berndt Lab, UW.</p>
+    </a>
+
+    <a class="card" href="./variants/eRGECO1f.html">
+      <div class="card-thumb">eRGECO1f</div>
+      <h2 class="card-title">eRGECO1f</h2>
+      <p class="card-desc">Fast kinetic response variant. Designed from Berndt Lab, UW.</p>
+    </a>
+
+    <a class="card" href="./variants/eRGECO1m.html">
+      <div class="card-thumb">eRGECO1m</div>
+      <h2 class="card-title">eRGECO1m</h2>
+      <p class="card-desc">Moderate kinetics and max ΔF/F0 balance. Designed from Berndt Lab, UW.</p>
+    </a>
+  </main>
+
+  <footer class="container footer">
+    <small>© <span id="y"></span> Shuyu Li • Imaging demo site for 2025 SFN poster</small>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
