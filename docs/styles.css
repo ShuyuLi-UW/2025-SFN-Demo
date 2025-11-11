@@ -12,7 +12,7 @@
     --fg: #e5e7eb;
     --muted: #94a3b8;
     --card: #111827;
-    --brand: #38bdf8;
+    --brand: #A992C7;
   }
 }
 * { box-sizing: border-box; }
@@ -44,8 +44,8 @@ h1 { margin: 0 0 8px; font-size: 24px; }
 }
 .card:hover, .card:focus-visible {
   transform: translateY(-2px);
-  outline-color: color-mix(in srgb, var(--brand) 40%, transparent);
-  box-shadow: 0 6px 24px rgba(0,0,0,.12);
+  outline-color: color-mix(in srgb, var(--brand) 60%, transparent);
+  box-shadow: 0 6px 24px color-mix(in srgb, var(--brand) 25%, transparent);
 }
 .card-thumb {
   display: grid; place-items: center;
